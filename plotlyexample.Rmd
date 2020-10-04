@@ -1,0 +1,25 @@
+---
+title: "Plotly Example"
+author: "Javier Vallejos"
+date: "3/10/2020"
+output: ioslides_presentation
+---
+
+
+## My Example using Plotly
+#### I am using the volcano dataset 
+
+```{r, warning=FALSE, message=FALSE}
+library(plotly)
+plot_ly(z = ~volcano, type = 'surface', mode = "markers")
+```
+
+## Second Example
+
+```{r, warning=FALSE, message=FALSE}
+library(plotly)
+plot_ly(y = runif(100), type = "box")
+```
+
+## Thanks for your attention
+
